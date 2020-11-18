@@ -1,0 +1,189 @@
+@import url('normalize.css'); 
+
+/*Información*/
+body, html{
+  height: 100%;
+  width: 100%; 
+  position: relative; 
+  margin: 0; 
+  padding: 0;
+  background-color: wheat;
+}
+
+div.About-Us {
+   text-align: left;
+   padding: 36px;
+}
+
+div.About-Us h5{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.About-Us p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 20px;
+    padding: 5px;
+}
+
+/*Linea separadora */ 
+.linea {
+  border-top: 1px solid  #99CF34  ;
+  height: 2px;
+  max-width: 400px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+
+/*Eslogan*/
+div.Eslogan {
+
+
+    width: 2000px;
+    height: 2000px;
+    border: 1px solid #99CF34   ; 
+    background: #99CF34  ;
+    margin: 500px auto;
+    text-align: center;
+    font-size: 14px; 
+    border-radius: 10px;
+}
+
+div.Eslogan h2{
+    color: wheat; 
+    font-size: 20px;
+    padding: 4px; 
+    text-decoration-line: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;
+}
+
+/*Quienes somos */
+div.QuienesSomos{
+ text-align: left;
+ margin: 5px;
+ height: 50px;
+}
+
+div.QuienesSomos p {
+  color: gray;
+  font-size: 20px;
+  padding: 5px;
+}
+
+div.dropdown {
+    text-align: left;
+    align-items: left;
+}
+
+.mision-btn{
+    margin-bottom: 30px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#99CF34  ;
+    border-radius: 6px;
+    border: 2px solid #99CF34  ;
+    width: 600px;
+  }
+
+  .mision-btn:hover{
+    color: #99CF34  ;
+    background-color: #ffffff;
+  }
+
+  .vision-btn{
+   margin-bottom: 30px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#99CF34  ;
+    border-radius: 6px;
+    border: 2px solid #99CF34  ;
+    width: 600px;
+  }
+
+  .vision-btn:hover{
+    color: #99CF34  ;
+    background-color: #ffffff;
+  }
+
+  .objetivos-btn{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#99CF34  ;
+    border-radius: 6px;
+    border: 2px solid #99CF34  ;
+    width: 600px;
+  }
+
+  .objetivos-btn:hover{
+    color: #99CF34  ;
+    background-color: #ffffff;
+  }
+/* Division de divs derecha e izquierda */
+  #left { 
+      float:left 
+    }
+
+  #right { 
+  float:right;
+  width: 650px;
+    }
+
+    #izquierda { 
+      float:left;
+    padding: 10px;  
+    }
+
+  #derecha { 
+      float:right;
+      width: 650px;
+      padding: 20px;
+    }
+    /*Servicios */ 
+  div.Servicios{
+      text-align: left;
+      margin: 5px;
+      height: 20px;
+      padding: 30px;
+     }
+
+div.Servicios p {
+  color: gray;
+  font-size: 20px;
+}
+
+  div.Union a{
+     color:  black;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     text-align: left;
+   }
+
+ /* Carrusel*/ 
+ .carousel-inner img {
+  width: 100%;
+  height: 100%;
+  
+}
+
+#demo{
+width: 600px;
+height: 480px;
+padding: 25px;
+align-content: left;
+}
+
+
+
+ 

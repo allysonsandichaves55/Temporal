@@ -1,0 +1,128 @@
+@import url('normalize.css'); 
+
+body, html{
+    height: 100%;
+    width: 100%; 
+    position: relative; 
+    margin: 0; 
+    padding: 0;
+    background-color: wheat;
+}
+
+div {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+/*caja*/
+div.Menu{
+    width: 97%;
+    height: 8%;
+    border: 1px solid #99CF34   ; 
+    background: #99CF34  ;
+    margin: 15px auto;
+    text-align: right;
+    font-size: 14px; 
+    border-radius: 10px;
+}
+
+div.Menu a{
+    color: wheat; 
+    font-size: 24px;
+    padding: 30px; 
+    text-decoration-line: none;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;
+}
+/*Texto de la imaegen junto con ek boton*/ 
+.txtIzq {
+    font-size: 36px;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(105%, -150%);
+}
+
+.Inicio-btn{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#99CF34  ;
+    border-radius: 6px;
+    border: 2px solid #99CF34  ;
+  }
+  .Inicio-btn:hover{
+    color: #99CF34  ;
+    background-color: #ffffff;
+  }
+/*Tablas con los botones*/ 
+  .Hospedaje-btn{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#99CF34  ;
+    border-radius: 6px;
+    border: 2px solid #99CF34  ;
+  }
+  .Hospedaje-btn:hover{
+    color: #99CF34  ;
+    background-color: #ffffff;
+  }
+  div.Tablas{
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px; 
+    position: absolute;
+   left: 30%;
+   margin-left: -400px;
+   top: 125%;
+   margin-top: -300px;
+  
+  }
+  .Servicios-btn{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#99CF34  ;
+    border-radius: 6px;
+    border: 2px solid #99CF34  ;
+  }
+  .Servicios-btn:hover{
+    color: #99CF34  ;
+    background-color: #ffffff;
+  }
+  
+  /*Pie de página*/ 
+  div.Pie{
+    width: 97%;
+    height: 8%;
+    border: 1px solid #99CF34   ; 
+    background: #99CF34  ;
+    margin: 20px auto;
+    text-align: right;
+    font-size: 14px; 
+    border-radius: 10px;
+    left: 30%;
+    margin-left: 20px;
+    top: 125%;
+    margin-top: 300px;
+}
+
+.RedesSociales li{
+padding: 15px;
+ display: inline; 
+ 
+}
+
+
+
